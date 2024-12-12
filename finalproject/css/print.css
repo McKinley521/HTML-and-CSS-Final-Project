@@ -1,0 +1,28 @@
+@media print {
+    body {
+      font-family: Arial, sans-serif;
+      background: white;
+      color: black;
+      font-size: 12pt;
+    }
+    img {
+      display: none;
+    }
+    a {
+      color: black;
+      text-decoration: underline;
+    }
+    header, footer, section, nav, article {
+      display: block;
+      width: 100%;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      border: none;
+      text-shadow: none;
+      box-shadow: none;
+    }
+  }
+  
